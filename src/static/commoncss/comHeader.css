@@ -1,0 +1,22 @@
+#header .nav-menu {
+    top: .97rem;
+    left: 2.2rem;
+    background: #fff;
+    box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.1);
+    position: absolute;
+    z-index: 10;
+    transform: translateZ(0);
+    padding: .2rem 0;
+    display: none
+}
+#header .nav-menu .menu-item {
+    display: block;
+    font-size: .26rem;
+    width: 1.56rem;
+    height: .45rem;
+    line-height: 1;
+    padding: .1rem 0;
+    color: #333;
+    white-space: nowrap;
+    text-align: center;
+}
