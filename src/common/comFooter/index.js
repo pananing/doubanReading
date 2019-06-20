@@ -1,5 +1,5 @@
 import React from "react";
-import "static/common/comFooter.css";
+//import "static/commoncss/comFooter.css";
 export default class ComFooter extends React.Component{
     render(){
         return(

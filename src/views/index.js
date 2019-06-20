@@ -3,38 +3,33 @@ import Loading from "common/loading";
 
 const Home =Loadable({
     loader:()=>import('./home'),
-    Loading:Loading
-})
-const Mine =Loadable({
-    loader:()=>import('./mine'),
-    Loading:Loading
+    loading:Loading
 })
 const Sort =Loadable({
     loader:()=>import('./sort'),
-    Loading:Loading
+    loading:Loading
 })
 const MySet =Loadable({
     loader:()=>import('./mySet'),
-    Loading:Loading
+    loading:Loading
 })
 const MyHome =Loadable({
     loader:()=>import('./myHome'),
-    Loading:Loading
+    loading:Loading
 })
 const MyData =Loadable({
-    loader:()=>import('./myHome'),
-    Loading:Loading
+    loader:()=>import('./myData'),
+    loading:Loading
 })
 const Login =Loadable({
-    loader:()=>import('./Login'),
-    Loading:Loading
+    loader:()=>import('./login'),
+    loading:Loading
 })
 
 export {
     Home,
     MyHome,
     Login,
-    Mine,
     Sort,
     MySet,
     MyData

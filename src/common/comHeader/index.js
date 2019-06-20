@@ -1,5 +1,5 @@
 import React from "react";
-import "static/common/comHeader.css"
+//import "static/common/comHeader.css"
 export default class ComHeader extends React.Component{
     render(){
         return(

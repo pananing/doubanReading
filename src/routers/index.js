@@ -1,14 +1,11 @@
 import { Home,
     MyHome,
     Login,
-    Mine,
     Sort,
-    MySet,
     MyData } from "views";
      
 
     //基础路由配置
-
     export const mainRoute=[
         {
             pathname:"/home",
@@ -23,13 +20,11 @@ import { Home,
             component:Login
         }
     ]
+
+
+    
 //后台页面
     export const backRoute=[
-        {
-            pathname:"/mine",
-            component:Mine,
-            title:"我的首页"
-        },
         {
             pathname:"/mine/myhome",
             component:MyHome,
